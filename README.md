@@ -4,7 +4,10 @@ Homebrew tap for [LumiReel](https://github.com/osdodo/lumireel).
 
 ## Installation
 
+Homebrew 7 and later require trusting the tap before installing:
+
 ```bash
+brew trust osdodo/lumireel
 brew install --cask osdodo/lumireel/lumireel
 ```
 
