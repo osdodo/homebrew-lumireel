@@ -6,19 +6,19 @@ cask "lumireel" do
          intel: "e617d20430f60789c69b8573aca1630f4039b9d35d2b993362bfd5b7827b0fe5"
 
   url "https://github.com/osdodo/lumireel/releases/download/v#{version}/lumireel-#{version}-macos-#{arch}.dmg"
-  name "LumiReel"
+  name "lumireel"
   desc "Make videos with a coding agent; every frame is code"
   homepage "https://github.com/osdodo/lumireel"
 
   depends_on macos: :monterey
 
-  app "LumiReel.app"
+  app "lumireel.app"
 
   # Ad-hoc signed, not notarized: without this Gatekeeper reports the app as damaged.
   postflight_steps do
     run "/usr/bin/xattr",
-        args:           ["-dr", "com.apple.quarantine", "{{appdir}}/LumiReel.app"],
-        writable_paths: ["LumiReel.app"],
+        args:           ["-dr", "com.apple.quarantine", "{{appdir}}/lumireel.app"],
+        writable_paths: ["lumireel.app"],
         writable_base:  :appdir
   end
 end

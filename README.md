@@ -1,6 +1,6 @@
-# Homebrew Tap for LumiReel
+# Homebrew Tap for lumireel
 
-Homebrew tap for [LumiReel](https://github.com/osdodo/lumireel).
+Homebrew tap for [lumireel](https://github.com/osdodo/lumireel).
 
 ## Installation
 
@@ -16,7 +16,7 @@ attribute after install so Gatekeeper does not report it as damaged. If you
 installed the app another way (e.g. the DMG) and macOS blocks it:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/LumiReel.app
+xattr -dr com.apple.quarantine /Applications/lumireel.app
 ```
 
 ## Updating the cask
