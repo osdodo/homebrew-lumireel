@@ -1,9 +1,9 @@
 cask "lumireel" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.1.1"
-  sha256 arm:   "b67aab47b0aed7de64dfce61fe44dca74af79249de1983ee43f7745260b38595",
-         intel: "e617d20430f60789c69b8573aca1630f4039b9d35d2b993362bfd5b7827b0fe5"
+  version "0.1.2"
+  sha256 arm:   "da0f3cd762b986c8c545179124117ed05ce9384f83a5e0ae9aff920d8dd9f9eb",
+         intel: "608ebbe55e963bd6e954cc988fde58792eb8323601704e709ecc42e0005cab13"
 
   url "https://github.com/osdodo/lumireel/releases/download/v#{version}/lumireel-#{version}-macos-#{arch}.dmg"
   name "lumireel"
